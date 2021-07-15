@@ -24,4 +24,8 @@ func cap6() {
 
 	capitulo6.CriarArquivos()
 	capitulo6.FuncaoAnonima()
+	capitulo6.Fibonacci()
+	capitulo6.Cronometrar(capitulo6.GerarFibonacci(8))
+	capitulo6.Cronometrar(capitulo6.GerarFibonacci(48))
+	capitulo6.Cronometrar(capitulo6.GerarFibonacci(88))
 }
