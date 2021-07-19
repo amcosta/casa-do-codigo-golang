@@ -3,12 +3,14 @@ package main
 import (
 	"cdc-golang/capitulo5"
 	"cdc-golang/capitulo6"
+	"cdc-golang/capitulo7"
 	"fmt"
 )
 
 func main() {
-	cap5()
-	cap6()
+	// cap5()
+	// cap6()
+	cap7()
 }
 
 func cap5() {
@@ -28,4 +30,11 @@ func cap6() {
 	capitulo6.Cronometrar(capitulo6.GerarFibonacci(8))
 	capitulo6.Cronometrar(capitulo6.GerarFibonacci(48))
 	capitulo6.Cronometrar(capitulo6.GerarFibonacci(88))
+
+	// capitulo6.ServerInit()
+}
+
+func cap7() {
+	capitulo7.IniciandoGoroutine()
+	capitulo7.ExecutarChannel1()
 }
