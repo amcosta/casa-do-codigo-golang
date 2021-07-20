@@ -35,6 +35,11 @@ func cap6() {
 }
 
 func cap7() {
-	capitulo7.IniciandoGoroutine()
-	capitulo7.ExecutarChannel1()
+	// capitulo7.IniciandoGoroutine()
+	// capitulo7.ExecutarChannel1()
+	// capitulo7.ExemploBuffer1()
+	// capitulo7.ExemploSepararNumerosImparEPar()
+	// capitulo7.ExemploComTimeout()
+	// capitulo7.ExemploWaitGroup()
+	capitulo7.GoMaxProc()
 }
